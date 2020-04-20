@@ -1,0 +1,12 @@
+CREATE INDEX StaffFirstName_index ON Staff(FirstName ASC);
+CREATE INDEX StaffLastName_index ON Staff(LastName);
+CREATE INDEX CustFirstName_index ON Customer(FirstName ASC);
+CREATE INDEX CustLastName_index ON Customer(LastName);
+CREATE INDEX ArtistYearofBirth_index ON Artist(YearofBirth);
+CREATE INDEX ArtistPlaceofBirth_index ON Artist(PlaceofBirth);
+CREATE INDEX ArtExStartDate_index ON ArtExhibition(ArtExDate);
+CREATE INDEX PaintingName_index ON Painting(PaintingName ASC);
+CREATE INDEX PaintedStyle_index ON Painting(PaintedStyle);
+CREATE INDEX PaintedYear_index ON Painting(PaintedYear);
+CREATE INDEX VisitingDate_index ON Visitor(VisitingDate);
+CREATE INDEX VisitedTime_index ON Visits(TimeStayedinMins);
